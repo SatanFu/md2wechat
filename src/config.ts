@@ -13,7 +13,7 @@ export function loadConfig(): AppConfig {
     databaseUrl: process.env.DATABASE_URL || undefined,
     webhookUrl: process.env.WEBHOOK_URL || undefined,
     apiKey: process.env.API_KEY || undefined,
-    port: parseInt(process.env.PORT ?? '3000', 10),
+    port: parseInt(process.env.PORT ?? '3090', 10),
     maxFileSizeMb: parseInt(process.env.MAX_FILE_SIZE_MB ?? '10', 10),
     tempDir: process.env.TEMP_DIR ?? '/tmp',
     logLevel: process.env.LOG_LEVEL ?? 'info',
