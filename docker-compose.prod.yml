@@ -2,7 +2,7 @@ services:
   md2wechat:
     image: ghcr.io/tenisinfinite/md2wechat:latest
     ports:
-      - "127.0.0.1:3000:3000"
+      - "127.0.0.1:3090:3090"
     env_file:
       - .env.prod
     volumes:
