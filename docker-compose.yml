@@ -2,7 +2,7 @@ services:
   md2wechat:
     build: .
     ports:
-      - "${HOST_PORT:-3000}:3000"
+      - "${HOST_PORT:-3090}:3090"
     env_file:
       - .env
     volumes:
